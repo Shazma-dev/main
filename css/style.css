@@ -889,8 +889,9 @@ hr {
 }
 
 /*price section css*/
+/*price section css*/
 .price{
-  max-width: 80%;
+  max-width: 60%;
   margin: 110px auto;
 }
 .price-heading{
@@ -901,23 +902,27 @@ hr {
     padding-bottom: 36px;
     text-align: center;
 }
-table {
-  border-collapse: collapse;
-  width: 25%;
-  text-align: center;
-  margin: 60px auto;
-
+.main-row{
+  display: flex;
 }
-th{
+.table-row{
+  display: block;
+  width: 25%;
+}
+.table-col{
+ 
+  border: 1px solid #e5e6e7;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+  text-align: center;
+}
+.table-col.head{
   font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
     color: #777;
-}
-
-td, th {
-  border: 1px solid #e5e6e7;
-  padding: 20px 40px;
 }
 
 .first{
@@ -931,11 +936,7 @@ td, th {
   font-weight: 300;
   font-size: 14px;
 }
-td{
-  font-size: 16px;
-  font-weight: 400;
-  color: #777777;
-}
+
 .secondaryy{
   background-color: #2E4A5B;
 }
@@ -971,7 +972,15 @@ td{
     max-width: 90%;
     margin: 50px auto;
 }
+.main-row {
+  display: flex;
+  flex-direction: column;
+}
+.table-row{
+  width: 100%;
+  margin: 20px;
   
+}
 }
 
 /*testimonial css*/
