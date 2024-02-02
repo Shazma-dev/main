@@ -111,13 +111,6 @@ background: #3c4140 url(..//img/arrow-left-1.png) center center no-repeat;
   }
   
 }
-/* nav{
-  background: rgba(68,67,62, 0.7);
-  padding: 2% 6%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 .nav-links{
   flex: 1;
   text-align: right;
@@ -213,11 +206,11 @@ background: #3c4140 url(..//img/arrow-left-1.png) center center no-repeat;
 }
 @media(max-width:700px) {
   .banner{
-    min-height: 520px;
+    min-height: 560px;
   }
   .text{
     font-size: 12px;
-    top: 62%;
+    top: 52%;
     left: 48%;
   
   }
@@ -270,6 +263,16 @@ background: #3c4140 url(..//img/arrow-left-1.png) center center no-repeat;
     padding: 20px 38px;
     font-size: 22px;
   }
+.slide .item:nth-child(2){
+  left: 80%;
+  display:none!important;
+}
+
+.slide .item:nth-child(n + 3){
+  /* left: calc(50% + 660px); */
+  opacity: 0;
+  display:none!important;
+}
 
 
   
