@@ -108,6 +108,7 @@ background: #3c4140 url(..//img/arrow-left-1.png) center center no-repeat;
 @media (max-width:700px) {
   #header{
     width: 90%!important;
+    padding: 2% 6%!important;
   }
   
 }
