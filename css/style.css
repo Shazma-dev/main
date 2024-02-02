@@ -977,7 +977,7 @@ hr {
   flex-direction: column;
 }
 .table-row{
-  width: 100%;
+  width: 90%!important;
   margin: 20px;
   
 }
