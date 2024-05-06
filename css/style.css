@@ -911,6 +911,20 @@ hr {
   max-width: 60%;
   margin: 110px auto;
 }
+.btn-price {
+    background-color: var(--primary);
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    border-top: 5px solid #fff;
+    width: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    outline: none;
+}
 
 @media(max-width:1440px){
   .price{
