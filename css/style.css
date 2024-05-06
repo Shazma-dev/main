@@ -911,6 +911,12 @@ hr {
   max-width: 60%;
   margin: 110px auto;
 }
+
+@media(max-width:1440px){
+  .price{
+   max-width: 90%!important;
+}
+}
 .price-heading{
   color: #4e4e4e;
     font-size: 36px;
