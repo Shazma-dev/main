@@ -911,7 +911,7 @@ hr {
   max-width: 60%;
   margin: 110px auto;
 }
-.btn-price {
+.btn-price{
     background-color: var(--primary);
     font-size: 13px;
     font-weight: 700;
